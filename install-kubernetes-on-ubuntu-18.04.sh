@@ -4,7 +4,7 @@
 host=$(hostname)
 sudo apt-get update
 sudo apt-get install docker.io
-docker ––version
+docker version
 echo "Press enter to continue..."
 read -r
 
